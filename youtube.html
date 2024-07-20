@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODES - YouTube</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js">
+        function toggleMenu() {
+          const navLinks = document.getElementById('nav-links');
+          if (navLinks.style.display === 'flex') {
+            navLinks.style.display = 'none';
+          } else {
+            navLinks.style.display = 'flex';
+          }
+        }
+    </script>
+    <style>
+       
+    </style>
+    
+</head>
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">CODES</div>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog Creator</a></li>
+                <li><a href="youtube.html">YouTube</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<section class="youtube-channel">
+            <div class="container">
+                <h2>Our YouTube Channel</h2>
+                <p>Watch our videos to learn more about coding, development, and more.</p>
+
+                <!-- Embed YouTube video -->
+                <div class="video-wrapper">
+                  <iframe width="560" height="315" src="https://youtu.be/G5GB6zhKm7s?si=AfHZStbld5A6I5ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <!-- Display a list of YouTube videos or playlists -->
+                <!-- You can use YouTube API to fetch and display videos dynamically -->
+            </div>
+</section>
+
+    </main>
+
+    <footer>
+        <!-- Same footer as in index.html -->
+    </footer>
+</body>
+</html>
