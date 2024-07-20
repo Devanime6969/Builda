@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - BUILDA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">BUILDA</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="youtube.html">YouTube</a></li>
+            <li><a href="download.html">Downloads</a></li>
+            
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>Get Mods, Texture Packs, etc.</h1>
+            <p>Sharing Mods, Texture Packs, and toher things by through this website </p>
+            <div class="cta-buttons">
+                <a href="download.html" class="btn" style="text-decoration: none;">Download!</a>
+                <a href="https://youtube.com/@builda-i5z?si=4X_2suHik4gyXJ4w" class="btn-secondary" style="text-decoration: none;">Subcribe Now!</a>
+            </div>
+        </div>
+    </header>
+    <section class="features">
+        <h2>  </h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>Mods</h3>
+                <p>We share mods that are useful and make game much better.</p>
+            </div>
+            <div class="feature">
+                <h3>Explanation</h3>
+                <p>We explain the things in the Youtube Video and for harder things we share blogs.</p>
+            </div>
+            <div class="feature">
+                <h3>Modern Textures</h3>
+                <p>We always try to give what in modern era we want and make sure it works </p>
+            </div>
+            
+    </section>
+    <script src="script.js"></script>
+</body>
+    <script>
+        function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        }
+        
+    </script>
+  </html>
+                  
